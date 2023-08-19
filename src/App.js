@@ -1,4 +1,5 @@
 import Concept from "./Concept";
+import Basic from "./Basic";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       </header>
       <hr />
       <Concept />
+      <Basic />
     </div>
   );
 }
