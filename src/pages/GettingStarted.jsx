@@ -1,5 +1,6 @@
 import React from "react";
-export default function Basic() {
+
+export default function GettingStarted() {
   return (
     <div className="Basic">
       <h2>
