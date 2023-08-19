@@ -1,0 +1,11 @@
+.Concept {
+  text-align: left;
+  max-width: 800px;
+  padding: 20px;
+}
+.Concept h2 {
+  padding-bottom: 20px;
+}
+.Concept img {
+  border-radius: 10px;
+}
