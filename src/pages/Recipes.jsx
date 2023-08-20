@@ -1,20 +1,51 @@
 import React from "react";
+import Teriyaki from "../resources/teriyaki-chicken.jpg";
+import RecipeCard from "./components/recipes/RecipeCard";
 
 export default function Recipes() {
+  const recipes = [
+    {
+      title: "Teriyaki Chicken",
+      img: Teriyaki,
+      difficulty: "Easy",
+    },
+    {
+      title: "Teriyaki Chicken",
+      img: Teriyaki,
+      difficulty: "Easy",
+    },
+    {
+      title: "Teriyaki Chicken",
+      img: Teriyaki,
+      difficulty: "Easy",
+    },
+    {
+      title: "Teriyaki Chicken",
+      img: Teriyaki,
+      difficulty: "Easy",
+    },
+    {
+      title: "Teriyaki Chicken",
+      img: Teriyaki,
+      difficulty: "Easy",
+    },
+  ];
   return (
     <div ClassName="Recipes">
       <h2>
         <em>Recipes</em>
       </h2>
-      <button type="button" className="btn btn-secondary btn-lg m-3">
-        Chicken
-      </button>
-      <button type="button" className="btn btn-secondary btn-lg m-3">
-        Pork
-      </button>
-      <button type="button" className="btn btn-secondary btn-lg m-3">
-        Fish
-      </button>
+      <div className="row m-5">
+        {recipes.map(function (recipe) {
+          return (
+            <RecipeCard
+              title={recipe.title}
+              img={recipe.img}
+              difficulty={recipe.difficulty}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

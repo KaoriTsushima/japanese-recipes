@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import GettingStarted from "./pages/GettingStarted";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
