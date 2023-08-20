@@ -1,0 +1,23 @@
+.ingredients,
+.steps {
+  text-align: left;
+  font-size: 16pt;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.recipe-img {
+  border-radius: 10px;
+  width: 100%;
+}
+.recipe-details {
+  margin: 0 10rem;
+}
+.recipe-details h4 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.img-col {
+  margin: 0;
+  padding: 0;
+}

@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import GettingStarted from "./pages/GettingStarted";
 import "bootstrap/dist/css/bootstrap.min.css";
+import RecipeDetails from "./pages/components/recipes/RecipeDetails";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Concept />} />
         <Route path="/getting-started" element={<GettingStarted />} />
         <Route path="/recipes" element={<Recipes />} />
+        <Route path="/recipes/:recipeName" element={<RecipeDetails />} />
       </Routes>
     </div>
   );
