@@ -13,7 +13,11 @@ export default function RecipeDetails() {
       <h3>{recipeDetails.title}</h3>
       <div className="row my-5">
         <div className="col-lg-5 img-col">
-          <img src={recipeDetails.img} className="recipe-img " />
+          <img
+            src={recipeDetails.img}
+            className="recipe-img "
+            alt="recipe-img"
+          />
         </div>
         <div className="col-lg-7 ingredients">
           <h4>Ingredients</h4>

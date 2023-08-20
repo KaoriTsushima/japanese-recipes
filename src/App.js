@@ -1,5 +1,4 @@
 import Concept from "./pages/Concept";
-import Basic from "./pages/GettingStarted";
 import Recipes from "./pages/Recipes";
 import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
