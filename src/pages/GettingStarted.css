@@ -1,0 +1,18 @@
+.getting-started p,
+.getting-started li {
+  font-size: 16pt;
+}
+.get-japanese-ingredients {
+  margin: 50px 20%;
+  text-align: left;
+}
+.mix-sauces-container {
+  margin: 50px 20%;
+  text-align: left;
+}
+/* @media (max-width: 900px) {
+  .get-japanese-ingredients,
+  .mix-sauces-container {
+    margin: 0 !important;
+  }
+} */

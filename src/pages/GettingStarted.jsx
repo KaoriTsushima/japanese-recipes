@@ -5,6 +5,7 @@ import Ponzu from "../resources/ponzu.jpg";
 import SoySauce from "../resources/soy-sauce.jpg";
 import Mirin from "../resources/mirin-2.jpg";
 import CookingSake from "../resources/cooking-sake.jpg";
+import "./GettingStarted.css";
 
 function Seasoning({ title, img, substitute }) {
   return (
@@ -53,7 +54,7 @@ export default function GettingStarted() {
     },
   ];
   return (
-    <div className="Basic">
+    <div className="getting-started">
       <h2>
         <em>Basic</em>
       </h2>
@@ -69,33 +70,48 @@ export default function GettingStarted() {
           );
         })}
       </div>
-
+      <hr />
       <h3>Common mix sauces</h3>
-      <div className="row mt-5">
-        <div className="col-lg-4">
-          <h4>Teriyaki sauce</h4>
+      <div className="mix-sauces-container">
+        <div className="row">
+          <div className="col-lg-4">
+            <h4>Teriyaki sauce</h4>
+          </div>
+          <div className="col-lg-8">
+            <p>Soy sauce : Mirin : Cooking sake : sugar = 2:2:2:1</p>
+          </div>
         </div>
-        <div className="col-lg-8">
-          <p>Soy sauce : Mirin : Cooking sake : sugar = 2:2:2:1</p>
+        <div className="row">
+          <div className="col-lg-4">
+            <h4>Sushi Vinegar</h4>
+          </div>
+          <div className="col-lg-8">
+            <p>Rice vinegar (180ml) + Sugar (45g) + Salt (18g)</p>
+          </div>
         </div>
-      </div>
-      <div className="row mt-5">
-        <div className="col-lg-4">
-          <h4>Sushi Vinegar</h4>
-        </div>
-        <div className="col-lg-8">
-          <p>Rice vinegar (180ml) + Sugar (45g) + Salt (18g)</p>
-        </div>
-      </div>
-      <div className="row mt-5">
-        <div className="col-lg-4">
-          <h4>Karaage marinate sauce</h4>
-        </div>
-        <div className="col-lg-8">
-          <p>Soy sauce : Cooking sake = 1:1</p>
+        <div className="row">
+          <div className="col-lg-4">
+            <h4>Karaage marinate sauce</h4>
+          </div>
+          <div className="col-lg-8">
+            <p>Soy sauce : Cooking sake = 1:1</p>
+          </div>
         </div>
       </div>
       <hr />
+      <h3>How to get Japanese ingredients</h3>
+      <div className="get-japanese-ingredients">
+        <ul>
+          <li>Surpermarket (e.g. Morrisons, ASDA)</li>
+          <li>Chinese surpermarket (e.g. Matthews Foods)</li>
+          <li>
+            <a href="https://www.waso.tokyo/" target="_blank" rel="noreferrer">
+              WASO
+            </a>{" "}
+            - online shopping (You can use this code: <strong>fwk45z</strong>)
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
