@@ -4,7 +4,7 @@
 
 .App-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("\\resources\\sushi.jpg");
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/000/original/sushi.jpg?1692478010");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
