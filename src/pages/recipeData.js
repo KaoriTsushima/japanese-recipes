@@ -1,5 +1,6 @@
 import Teriyaki from "../resources/teriyaki-chicken.jpg";
 import Karaage from "../resources/karaage.jpg";
+import Misoshiru from "../resources/misoshiru.jpg";
 
 export const recipeData = [
   {
@@ -41,6 +42,25 @@ export const recipeData = [
       "Put oil into deep pan",
       "Deep fry 10-15 minutes",
       "Serve and Enjoy eating",
+    ],
+  },
+  {
+    path: "misoshiru",
+    title: "Basic Miso soup (serve for 4)",
+    img: Misoshiru,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1 tsp",
+      "water: 800ml",
+      "miso: 1/3 - 1/2 ladle",
+    ],
+    steps: [
+      "Start heating pod with water",
+      "Add dashi stock",
+      "Add miso from 1/3 of ladle and adjust your prefer strength",
+      "Make sure miso completely melted",
+      "(Add your favourite vaggies etc)",
+      "Serve and enjoy eating",
     ],
   },
 ];
