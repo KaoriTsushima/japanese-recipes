@@ -11,13 +11,13 @@ export default function Concept() {
         <div className="row">
           <div className="col-lg-8">
             <p>
-              Japanese people love to enjoy ingridient taste itself (e.g.
-              sashimi).
+              Japanese people love to enjoy the taste of ingredients by itself
+              (e.g. sashimi).
             </p>
             <p>So, I believe "Simple is the best!"</p>
             <p>
-              My recipes are very simple, so let's cooking end enjoying Japanese
-              food!
+              My recipes are very simple, so let's get cooking end enjoying some
+              Japanese food!
             </p>
           </div>
           <div className="col-lg-4">

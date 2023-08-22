@@ -9,7 +9,7 @@ import "./GettingStarted.css";
 
 function Seasoning({ title, img, substitute }) {
   return (
-    <div className="col-lg-2">
+    <div className="col-lg-4">
       <h4>{title}</h4>
       <img src={img} alt={title} height={200} />
       {substitute ? (
@@ -59,7 +59,7 @@ export default function GettingStarted() {
         <em>Basic</em>
       </h2>
       <h3>Common seasonings</h3>
-      <div className="row mt-5 mb-5">
+      <div className="row mt-5 mb-5" style={{ maxWidth: "100%" }}>
         {seasonings.map(function (seasoning) {
           return (
             <Seasoning
@@ -91,7 +91,7 @@ export default function GettingStarted() {
         </div>
         <div className="row">
           <div className="col-lg-4">
-            <h4>Karaage marinate sauce</h4>
+            <h4>Karaage marinade sauce</h4>
           </div>
           <div className="col-lg-8">
             <p>Soy sauce : Cooking sake = 1:1</p>
@@ -102,8 +102,8 @@ export default function GettingStarted() {
       <h3>How to get Japanese ingredients</h3>
       <div className="get-japanese-ingredients">
         <ul>
-          <li>Surpermarket (e.g. Morrisons, ASDA)</li>
-          <li>Chinese surpermarket (e.g. Matthews Foods)</li>
+          <li>Supermarket (e.g. Morrisons, ASDA)</li>
+          <li>Chinese supermarket (e.g. Matthews Foods)</li>
           <li>
             <a href="https://www.waso.tokyo/" target="_blank" rel="noreferrer">
               WASO
