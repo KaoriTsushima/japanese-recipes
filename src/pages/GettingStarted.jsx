@@ -97,6 +97,25 @@ export default function GettingStarted() {
             <p>Soy sauce : Cooking sake = 1:1</p>
           </div>
         </div>
+        <div className="row">
+          <div className="col-lg-4">
+            <h4>Golden ratio sauce</h4>
+          </div>
+          <div className="col-lg-8">
+            <p>Soy sauce : Mirin : Cooking sake = 1:1:1</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-4">
+            <h4>Okonomiyaki sauce</h4>
+          </div>
+          <div className="col-lg-8">
+            <p>
+              Worcestershire sauce(2 tbsp) + Soy sauce (4 tsp) + Ketchup (4
+              tbsp) + Honey (4 tsp)
+            </p>
+          </div>
+        </div>
       </div>
       <hr />
       <h3>How to get Japanese ingredients</h3>

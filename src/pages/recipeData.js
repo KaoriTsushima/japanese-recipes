@@ -1,6 +1,8 @@
 import Teriyaki from "../resources/teriyaki-chicken.jpg";
 import Karaage from "../resources/karaage.jpg";
 import Misoshiru from "../resources/misoshiru.jpg";
+import GingerPork from "../resources/ginger-pork.jpg";
+import Yakisoba from "../resources/yakisoba.jpg";
 
 export const recipeData = [
   {
@@ -61,6 +63,55 @@ export const recipeData = [
       "Make sure the miso has completely melted",
       "(Add your favourite veggies etc)",
       "Serve and enjoy eating",
+    ],
+  },
+  {
+    path: "gingerPork",
+    title: "Ginger Pork",
+    img: GingerPork,
+    difficulty: "Easy",
+    ingredients: [
+      "thin sliced pork belly",
+      "onion",
+      "ginger",
+      "oil",
+      "Golden ratio sauce",
+    ],
+    steps: [
+      "Slice onion",
+      "Put oil in pan",
+      "Grilled pork",
+      "Add sliced onion into pan",
+      "Grate ginger into pan",
+      "Add Golden ratio sauce into pan",
+      "Mix well",
+      "Serve and Enjoy eating",
+    ],
+  },
+  {
+    path: "yakisoba",
+    title: "Yakisoba",
+    img: Yakisoba,
+    difficulty: "Easy",
+    ingredients: [
+      "thin sliced pork belly",
+      "bean sprout",
+      "carrot",
+      "cabbage",
+      "oil",
+      "egg noodle",
+      "Okonomiyaki sauce",
+    ],
+    steps: [
+      "Cut vegetables",
+      "Put oil in pan",
+      "Grilled pork",
+      "Add vegetables into pan",
+      "Make sure all ingredients are heated",
+      "Add egg noodle into pan",
+      "Add some water and loosen the noodles",
+      "Add Okonomiyaki sauce and mixed well",
+      "Serve and Enjoy eating",
     ],
   },
 ];
