@@ -71,7 +71,7 @@ export const recipeData = [
     img: GingerPork,
     difficulty: "Easy",
     ingredients: [
-      "thin sliced pork belly",
+      "thin sliced pork belly or pork loin",
       "onion",
       "ginger",
       "oil",
