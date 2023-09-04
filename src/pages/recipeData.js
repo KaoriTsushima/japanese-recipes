@@ -3,6 +3,8 @@ import Karaage from "../resources/karaage.jpg";
 import Misoshiru from "../resources/misoshiru.jpg";
 import GingerPork from "../resources/ginger-pork.jpg";
 import Yakisoba from "../resources/yakisoba.jpg";
+import Udon from "../resources/udon.jpg";
+import Soba from "../resources/mori-soba.jpg";
 
 export const recipeData = [
   {
@@ -112,6 +114,58 @@ export const recipeData = [
       "Add some water and loosen the noodles",
       "Add Okonomiyaki sauce and mixed well",
       "Serve and Enjoy eating",
+    ],
+  },
+  {
+    path: "udon",
+    title: "Basic Udon/Soba (serve for 1)",
+    img: Udon,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1 tsp",
+      "(Konbu: 1)",
+      "Tsuyu[water: soy sause: mirin = 10:1:1]",
+      "Udon/Soba (dried): around 100g",
+    ],
+    steps: [
+      "Put Tsuyu and dashi stock (and konbu) into sause pan",
+      "Start heating Tsuyu",
+      "If you are using konbu, remove konbu before starting bubble",
+      "Stop heating Tsuyu before boiling",
+      "Start heating another pot with prenty water",
+      "After boiling water, put udoon/soba into it",
+      "Follow instruction (usually around 5 minutes)",
+      "Remove water and serve udon/soba into bowl",
+      "Serve Tsuyu into udon/soba bowl",
+      "Enjoy eating",
+    ],
+  },
+  {
+    path: "soba",
+    title: "Zaru-Soba[Cold Soba] (serve for 1)",
+    img: Soba,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1 tsp",
+      "(Konbu: 1)",
+      "Tsuke-Tsuyu[water: soy sause: mirin = 5:1:1]",
+      "Soba (dried): around 100g",
+    ],
+    steps: [
+      "Put Tsuke-Tsuyu and dashi stock (and konbu) into sause pan",
+      "Start heating Tsuke-Tsuyu",
+      "If you are using konbu, remove konbu before starting bubble",
+      "Stop heating Tsuke-Tsuyu before boiling",
+      "After cooling down, put into fridge",
+      "Start heating another pot with prenty water",
+      "After boiling water, put udoon/soba into it",
+      "Follow instruction (usually around 5 minutes)",
+      "Move soba to mixing bowl and run cold water (Do not threw away boiled water[soba-water] with soba!)",
+      "Remove water and put soba into plate",
+      "Put Tsuke-Tsuyu into deep plate or cup",
+      "Enjoy eating",
+      "After eating, add soba-water into the Tsuke-Tsuyu plate/cup",
+      "Enjoy 'Soba-yu'!",
     ],
   },
 ];
