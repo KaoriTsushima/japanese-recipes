@@ -5,6 +5,7 @@ import GingerPork from "../resources/ginger-pork.jpg";
 import Yakisoba from "../resources/yakisoba.jpg";
 import Udon from "../resources/udon.jpg";
 import Soba from "../resources/mori-soba.jpg";
+import Chirashi from "../resources/chirashi.jpg";
 
 export const recipeData = [
   {
@@ -166,6 +167,30 @@ export const recipeData = [
       "Enjoy eating",
       "After eating, add soba-water into the Tsuke-Tsuyu plate/cup",
       "Enjoy 'Soba-yu'!",
+    ],
+  },
+  {
+    path: "chirashi",
+    title: "Chirashi-zushi",
+    img: Chirashi,
+    difficulty: "Easy",
+    ingredients: [
+      "Sushi vinegar",
+      "rice",
+      "egg",
+      "sushi-grade fish (e.g. salmon and tuna)",
+      "some seafood (e.g. prawn)",
+    ],
+    steps: [
+      "Make cooked rice",
+      "Move rice into sharow bowl and cool down rice",
+      "After cooling down rice, add 10% of sushi ginegar (e.g. if 100g of rice, add 10ml of sushi vinegar)",
+      "Mix well",
+      "Make scrumble egg",
+      "Boil seafood",
+      "Cut freash fish",
+      "Decolate sushi rice with scrumble egg, fish, and seafood",
+      "Searve and enjoy eating",
     ],
   },
 ];
