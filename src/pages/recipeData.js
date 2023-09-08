@@ -6,6 +6,8 @@ import Yakisoba from "../resources/yakisoba.jpg";
 import Udon from "../resources/udon.jpg";
 import Soba from "../resources/mori-soba.jpg";
 import Chirashi from "../resources/chirashi.jpg";
+import Oyakodon from "../resources/oyakodon.jpg";
+import Tonjiru from "../resources/tonjiru.jpg";
 
 export const recipeData = [
   {
@@ -190,6 +192,58 @@ export const recipeData = [
       "Boil seafood",
       "Cut freash fish",
       "Decolate sushi rice with scrumble egg, fish, and seafood",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "oyakodon",
+    title: "Oyako-don (serve for 2)",
+    img: Oyakodon,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1tsp",
+      "water: 160ml",
+      "soy sauce: 2tbsp",
+      "mirin: 2tbsp",
+      "sugar: 1tbsp",
+      "rice",
+      "egg: 3",
+      "chicken tihgt or breast: around 200g",
+      "onion: 1",
+    ],
+    steps: [
+      "Make cooked rice",
+      "Cut onion (slice)",
+      "Cut chicken as your preffered size",
+      "Put water, dashi stock, soy sause, mirin, sugar, onion, and chicken into pan",
+      "Prepare bowl then clack and stir eggs",
+      "Make sure chicken and onion completely heated",
+      "Cover eggs from center to edge of pan then cover lid",
+      "Stop heating when eggs heated as your prefferable hardness",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "tonjiru",
+    title: "Ton-jiru [Pork & Veg miso soup] (serve for 4)",
+    img: Tonjiru,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1 tsp",
+      "water: 800ml",
+      "miso: 1/3 - 1/2 ladle",
+      "thin sliced pork belly",
+      "potato",
+      "carrot",
+      "leek",
+      "onion",
+    ],
+    steps: [
+      "Cut potato, carrot, leek, and onion as your prefferable size",
+      "Put water, dashi stock, potato, carrot, leek, and onion into sause pan and start heating",
+      "Add thin slice pork belly when veggies are heated",
+      "Remove brown stuff using ladle",
+      "Add miso from 1/3 then adjust your prefferable strengh",
       "Searve and enjoy eating",
     ],
   },
