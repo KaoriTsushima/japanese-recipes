@@ -9,6 +9,8 @@ import Chirashi from "../resources/chirashi.jpg";
 import Oyakodon from "../resources/oyakodon.jpg";
 import Tonjiru from "../resources/tonjiru.jpg";
 import Katsu from "../resources/chicken-katsu.jpg";
+import Tonkatsu from "../resources/ton-katsu.jpg";
+import Katsudon from "../resources/katsu-don.jpg";
 
 export const recipeData = [
   {
@@ -268,6 +270,57 @@ export const recipeData = [
       "Heat up deep pan with oil",
       "Put chicken into deep pan",
       "Around 10 minutes later, remove chicken from deep pan and put on kitchen paper",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "tonkatsu",
+    title: "Ton Katsu [Pork Katsu]",
+    img: Tonkatsu,
+    difficulty: "Easy",
+    ingredients: [
+      "pork loin or filet",
+      "salt",
+      "pepper",
+      "oil",
+      "egg",
+      "flour",
+      "panko",
+    ],
+    steps: [
+      "Put salt and pepper on both side of pork",
+      "Put pork in order flour, egg, and panko",
+      "Heat up deep pan with oil",
+      "Put pork into deep pan",
+      "Around 10 minutes later, remove pork from deep pan and put on kitchen paper",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "katsudon",
+    title: "Katsu-don (serve for 1)",
+    img: Katsudon,
+    difficulty: "Easy",
+    ingredients: [
+      "dashi stock: 1/2tsp",
+      "water: 80ml",
+      "soy sauce: 1tbsp",
+      "mirin: 1tbsp",
+      "sugar: 1/2tbsp",
+      "rice",
+      "egg: 1",
+      "pork katsu: 1",
+      "onion: 1/2",
+    ],
+    steps: [
+      "Make cooked rice",
+      "Cut onion (slice)",
+      "Put water, dashi stock, soy sause, mirin, sugar, and onion into pan",
+      "Cut pork katsu",
+      "Prepare bowl then clack and stir eggs",
+      "Add pork katsu on pan (do not mix)",
+      "Cover eggs from center to edge of pan then cover lid",
+      "Stop heating when eggs heated as your prefferable hardness",
       "Searve and enjoy eating",
     ],
   },
