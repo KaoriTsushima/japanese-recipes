@@ -8,6 +8,7 @@ import Soba from "../resources/mori-soba.jpg";
 import Chirashi from "../resources/chirashi.jpg";
 import Oyakodon from "../resources/oyakodon.jpg";
 import Tonjiru from "../resources/tonjiru.jpg";
+import Katsu from "../resources/chicken-katsu.jpg";
 
 export const recipeData = [
   {
@@ -244,6 +245,29 @@ export const recipeData = [
       "Add thin slice pork belly when veggies are heated",
       "Remove brown stuff using ladle",
       "Add miso from 1/3 then adjust your prefferable strengh",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "katsu",
+    title: "Chicken Katsu",
+    img: Katsu,
+    difficulty: "Easy",
+    ingredients: [
+      "chicken thigh or breast",
+      "salt",
+      "pepper",
+      "oil",
+      "egg",
+      "flour",
+      "panko",
+    ],
+    steps: [
+      "Put salt and pepper on both side of chicken",
+      "Put chicken in order flour, egg, and panko",
+      "Heat up deep pan with oil",
+      "Put chicken into deep pan",
+      "Around 10 minutes later, remove chicken from deep pan and put on kitchen paper",
       "Searve and enjoy eating",
     ],
   },
