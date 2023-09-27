@@ -12,6 +12,7 @@ import Katsu from "../resources/chicken-katsu.jpg";
 import Tonkatsu from "../resources/ton-katsu.jpg";
 import Katsudon from "../resources/katsu-don.jpg";
 import TunaZuke from "../resources/tuna-zuke.jpg";
+import ZukeYaki from "../resources/zuke-yaki.jpg";
 
 export const recipeData = [
   {
@@ -339,6 +340,21 @@ export const recipeData = [
       "Put container into fridge and wait at least 20 minutes",
       "Cool down rice",
       "Cover rice with marinaded tuna",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "zuke-yaki",
+    title: "Marinaded Tuna Grill",
+    img: ZukeYaki,
+    difficulty: "Easy",
+    ingredients: ["sashimi grade tuna", "ginger", "golden ratio sauce", "oil"],
+    steps: [
+      "Cut tuna as your preffrable size",
+      "Put tuna into container",
+      "Add golden ratio sauce and graded ginger into it",
+      "Put container into fridge and wait at least 20 minutes",
+      "Grill tuna with small amount of oil",
       "Searve and enjoy eating",
     ],
   },
