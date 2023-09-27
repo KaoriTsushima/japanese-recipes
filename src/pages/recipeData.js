@@ -11,6 +11,7 @@ import Tonjiru from "../resources/tonjiru.jpg";
 import Katsu from "../resources/chicken-katsu.jpg";
 import Tonkatsu from "../resources/ton-katsu.jpg";
 import Katsudon from "../resources/katsu-don.jpg";
+import TunaZuke from "../resources/tuna-zuke.jpg";
 
 export const recipeData = [
   {
@@ -321,6 +322,23 @@ export const recipeData = [
       "Add pork katsu on pan (do not mix)",
       "Cover eggs from center to edge of pan then cover lid",
       "Stop heating when eggs heated as your prefferable hardness",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "tuna-zuke-don",
+    title: "Tuna Zuke Don",
+    img: TunaZuke,
+    difficulty: "Easy",
+    ingredients: ["sashimi grade tuna", "ginger", "golden ratio sauce", "rice"],
+    steps: [
+      "Prepare boiled rice",
+      "Cut tuna as your preffrable size",
+      "Put tuna into container",
+      "Add golden ratio sauce and graded ginger into it",
+      "Put container into fridge and wait at least 20 minutes",
+      "Cool down rice",
+      "Cover rice with marinaded tuna",
       "Searve and enjoy eating",
     ],
   },
