@@ -13,6 +13,7 @@ import Tonkatsu from "../resources/ton-katsu.jpg";
 import Katsudon from "../resources/katsu-don.jpg";
 import TunaZuke from "../resources/tuna-zuke.jpg";
 import ZukeYaki from "../resources/zuke-yaki.jpg";
+import Yakionigiri from "../resources/yakionigiri.jpg";
 
 export const recipeData = [
   {
@@ -355,6 +356,20 @@ export const recipeData = [
       "Add golden ratio sauce and graded ginger into it",
       "Put container into fridge and wait at least 20 minutes",
       "Grill tuna with small amount of oil",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "yakionigiri",
+    title: "Yaki-onigiri",
+    img: Yakionigiri,
+    difficulty: "Easy",
+    ingredients: ["rice", "soy sauce"],
+    steps: [
+      "Prepare boiled rice",
+      "Make boiled rice triangle shape",
+      "Put soy sause on serface of traiangle shape rice",
+      "Griled traiangle shape rice",
       "Searve and enjoy eating",
     ],
   },
