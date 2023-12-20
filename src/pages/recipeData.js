@@ -14,6 +14,7 @@ import Katsudon from "../resources/katsu-don.jpg";
 import TunaZuke from "../resources/tuna-zuke.jpg";
 import ZukeYaki from "../resources/zuke-yaki.jpg";
 import Yakionigiri from "../resources/yakionigiri.jpg";
+import Kinton from "../resources/kinton.jpg";
 
 export const recipeData = [
   {
@@ -370,6 +371,28 @@ export const recipeData = [
       "Make boiled rice triangle shape",
       "Put soy sause on serface of traiangle shape rice",
       "Griled traiangle shape rice",
+      "Searve and enjoy eating",
+    ],
+  },
+  {
+    path: "kinton",
+    title: "Kinton (mashed sweet potato)",
+    img: Kinton,
+    difficulty: "Easy",
+    ingredients: [
+      "sweet potato (350g)",
+      "sugar (63g)",
+      "mirin (tsp 1)",
+      "salt (a little)",
+    ],
+    steps: [
+      "Peal skins of sweet potatos",
+      "Boil sweet potato",
+      "Remove boiled water",
+      "Mashed sweet potatos with sugar and mirin",
+      "Add salt at the end",
+      "Make shape using clean film",
+      "Put them fridge at least a couple of hours",
       "Searve and enjoy eating",
     ],
   },
